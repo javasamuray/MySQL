@@ -1,5 +1,6 @@
-sudo -u coder psql
-
+/*
+TODO: Создаем базу данных для обучения под СУБД PostgreSQL. sudo -u coder psql
+*/
 CREATE DATABASE mysql_db;
 CREATE USER Admin_db WITH password 'admin';
 GRANT ALL ON DATABASE mysql_db TO Admin_db;
